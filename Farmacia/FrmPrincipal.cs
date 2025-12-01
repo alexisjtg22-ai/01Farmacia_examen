@@ -57,5 +57,19 @@ namespace Farmacia
         {
 
         }
+
+        private void toolStripButton1_Click_1(object sender, EventArgs e)
+        {
+            FrmEmpleado frm= new FrmEmpleado();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FrmMedicamentos frm = new FrmMedicamentos();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

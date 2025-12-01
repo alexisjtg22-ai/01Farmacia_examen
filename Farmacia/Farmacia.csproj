@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +89,8 @@
     <Compile Include="FrmProveedores.Designer.cs">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Empleado.cs" />
+    <Compile Include="Modelo\Medicamento.cs" />
     <Compile Include="FrmSucursal.cs">
       <SubType>Form</SubType>
     </Compile>
